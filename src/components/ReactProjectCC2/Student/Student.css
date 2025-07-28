@@ -1,0 +1,96 @@
+#student-div
+{
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:1%;
+    padding: 10%;
+    border:1px solid black;
+    padding:10px;
+    border-radius:10px;
+    background-color:ghostwhite;
+    text-align: center;
+}
+#student-search-container
+{
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:8%;
+    display: flex;
+}
+#input-student-div
+{
+    width: 30%;
+    margin-left: 1%;
+    font-size: 16px;
+}
+#search-student
+{
+    margin-left: 2%;
+    background-color: rgb(27, 112, 208);
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 7%;
+}
+#add-student
+{
+    margin-left: 40%;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    width: 10%;
+}
+#search-student:hover,#add-student:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+#student-div td
+{
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#student-table
+{
+    width: 100%;
+}
+#actions
+{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.view-btn
+{
+    background-color: green;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    color: white;
+}
+.update-btn
+{
+    background-color: orange;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.delete-btn
+{
+    background-color: red;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    color: white;
+    margin-left: 20%;
+}
+.view-btn:hover,.update-btn:hover,.delete-btn:hover
+{
+    transform: scale(1.1);
+}
